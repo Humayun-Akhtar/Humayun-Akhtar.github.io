@@ -116,7 +116,7 @@ analytics:
 # Site Author
 author:
   name             : "Humayun Akhtar"
-  avatar           : "D:\TAMU\Portfolio Git\pic.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "SLAM & Perception Robotics Engineer | ROS2, C++, LiDAR, Sensor Fusion, Computer Vision"
   location         : "Denver, CO, USA"
   email            : "akhtar.humayun98@gmail.com"
