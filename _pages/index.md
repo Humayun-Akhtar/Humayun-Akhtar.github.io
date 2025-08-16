@@ -2,6 +2,7 @@
 layout: splash
 title: "Humayun Akhtar"
 permalink: /
+classes: hero-cinematic hero-center
 header:
   overlay_color: "#000"
   overlay_filter: 0.4
