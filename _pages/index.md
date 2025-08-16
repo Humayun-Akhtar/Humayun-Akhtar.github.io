@@ -2,12 +2,12 @@
 layout: splash
 title: "Humayun Akhtar"
 permalink: /
-classes: hero-cinematic hero-center
+classes: hero-cinematic-short hero-center
 header:
   overlay_color: "#000"
   overlay_filter: 0.4
   overlay_image: /assets/hero/warehouse-robot2.png
-excerpt: "SLAM & Perception Engineer — building robust real-time localization and vision systems for autonomous warehouse robots."
+excerpt: "SLAM & Perception Software Engineer — innovating robust real-time localization and perception systems for autonomous robots."
 ---
 
 ### Hi, I’m Humayun.
