@@ -7,3 +7,46 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Cinematic, wide hero banner */
+.hero-cinematic .page__hero--overlay {
+  /* Controls the visible “ratio” feel */
+  min-height: 66vh;                 /* desktop height; tweak 60–75vh */
+  background-size: cover;           /* fill edge-to-edge, crop if needed */
+  background-position: 50% 40%;     /* keep subject slightly above center */
+  background-repeat: no-repeat;
+}
+
+/* Optional: ensure text stays readable on busy images */
+.hero-cinematic .page__hero--overlay .page__title,
+.hero-cinematic .page__hero--overlay .page__lead,
+.hero-cinematic .page__hero--overlay .btn {
+  text-shadow: 0 2px 14px rgba(0,0,0,0.45);
+}
+
+/* Fine-tune focal point if your subject sits lower/higher */
+.hero-center .page__hero--overlay {
+  background-position: 50% 40%;
+}
+
+/* Mobile/tablet: reduce height so content appears sooner */
+@media (max-width: 1024px) {
+  .hero-cinematic .page__hero--overlay {
+    min-height: 52vh;
+    background-position: 50% 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-cinematic .page__hero--overlay {
+    min-height: 44vh;
+    background-position: 50% 50%;
+  }
+}
+
+/* If you ever want the image fully visible (not recommended for banners) */
+.hero-contain .page__hero--overlay {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000;    /* fill side gaps */
+}
