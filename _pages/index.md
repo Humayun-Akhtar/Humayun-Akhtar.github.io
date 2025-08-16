@@ -6,7 +6,7 @@ classes: hero-cinematic-short hero-center
 header:
   overlay_color: "#000"
   overlay_filter: 0.4
-  overlay_image: /assets/hero/warehouse-robot2.png
+  overlay_image: /assets/hero/wr.png
 excerpt: "SLAM & Perception Software Engineer — innovating robust real-time localization and perception systems for autonomous robots."
 ---
 
