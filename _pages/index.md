@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: 0.4
-  overlay_image: /assets/hero/warehouse-robot2.jpg
+  overlay_image: /assets/hero/warehouse-robot2.png
 excerpt: "SLAM & Perception Engineer — building robust real-time localization and vision systems for autonomous warehouse robots."
 ---
 
